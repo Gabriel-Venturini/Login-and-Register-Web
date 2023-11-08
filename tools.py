@@ -33,12 +33,14 @@ def login(login, psswd):
     ''' Opens JSON file then search for the user
     in the list using the name as an index '''
     data = read_json()
-    for person in data[login.lower()]:
-        if psswd == person['password']:
-            return 1
-        else:
-            return 0
-
+    try:
+        for person in data[login.lower()]:
+            if psswd == person['password']:
+                return 1
+            else:
+                return 0
+    except KeyError:
+        return 0
 
 # new_user = register()
 # login() 
