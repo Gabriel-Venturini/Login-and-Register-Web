@@ -1,0 +1,32 @@
+{
+    "james.maximiliam": [
+        {
+            "email": "max.james@gmail.com",
+            "password": "Jam3$max"
+        }
+    ],
+    "romero.branco": [
+        {
+            "email": "romerbr12@hotmail.com",
+            "password": "Jes@fo098"
+        }
+    ],
+    "george.neil": [
+        {
+            "email": "neiljunior@outlook.com",
+            "password": "theFirsT091*"
+        }
+    ],
+    "lohanna.pires": [
+        {
+            "email": "loohzinha@gmail.com",
+            "password": "looH@nn42002"
+        }
+    ],
+    "pedro.cabral": [
+        {
+            "email": "pedrinwf@gmail.com",
+            "password": "caBrr4lP3drr0ca"
+        }
+    ]
+}
