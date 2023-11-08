@@ -31,4 +31,4 @@ with tab2:
         pass_expander.write(pass_requirements)
         submit = st.form_submit_button('Sign up', use_container_width=True)
 
-st.session_state
+# st.session_state
